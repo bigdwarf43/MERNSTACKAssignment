@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = "mongodb+srv://bigdwarf43:P0kem0n1o143@cluster0.lwvsnkt.mongodb.net/"
+const CONNECTION_URL = "mongodb+srv://<username>:<password>@cluster0.lwvsnkt.mongodb.net/"
 
 const PORT = process.env.PORT|| 5000;
 
